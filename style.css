@@ -1,0 +1,54 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0cd41d;
+    color: #111;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Limit the width of the main content */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the aside element */
+  aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #444;
+    padding: 15px;
+    background-color: #e0f7fa;
+    color: #222;
+  }
+  
+  /* Image inside aside should keep aspect ratio */
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Target profile image inside main section */
+  main img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Set paragraph padding to 0 */
+  p {
+    padding: 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fafafa;
+  }
+  
